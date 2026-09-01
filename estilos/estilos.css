@@ -26,7 +26,9 @@ h3 + p{
 
 
 /* Agrego un selector con hermano general */
-
+h2 ~ ol{
+    color:#fad6c4
+}
 
 
 
@@ -64,6 +66,7 @@ body {
     margin: 20px;
     padding: 20px;
     width: 400px;
+    height: 120px;
     box-sizing: border-box;
     background-color: #4c4353;
     text-align: center;
@@ -95,6 +98,8 @@ ul, ol {color: #fff  }
 
 /* creo el ID */
 #colorparrafo {color:#F86015 }
+
+
 
 
 /* Agrego un selector para el footer */
