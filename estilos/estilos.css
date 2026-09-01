@@ -44,7 +44,7 @@ main {
 em{
     color: #F2EB81
 }
-
+/*  */
 /* Cambio el color de los <h4> */
 h4{
     color:#F2EB81
@@ -56,7 +56,10 @@ body {
     background-color: #282723;
 }
 
-
+/* Agrego un selector de ID */
+#presentacion {
+    background-color: #4c4353;
+}
 /* Agrego una class para modificar la presentacion */
 .presentacion {
     color:#F2EB81
@@ -70,9 +73,12 @@ body {
     box-sizing: border-box;
     background-color: #4c4353;
     text-align: center;
-    
-}
 
+    /* Selector descendiente */
+    h4 {
+        color: #F2EB81;
+    }
+}
 /* Agrego un selector al header 4 del cronograma */
 h4{
     color:#FFF
@@ -96,8 +102,6 @@ strong {color: #FFF}
 /* selector grupa;l */
 ul, ol {color: #fff  }
 
-/* creo el ID */
-#colorparrafo {color:#F86015 }
 
 
 
